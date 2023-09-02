@@ -24,7 +24,7 @@ Acessar o Maven no site: https://maven.apache.org/download.cgi em download clica
 <p align="center"><img src="./images/maven.png"></p>
 
  Após o download descompactar, o arquivo .zip em um diretório local, o maven é um arquivo compactado. Após descompactá-lo fazer a configuração da **variável de ambiente**:
- No botão pesquisar da barra de tarefas do Windows, digitar variáveis de ambiente e clicar em **Editar as variáveis de ambiente do sistema**. Na box **Propriedade do sistema**, opção **Avançado**, clicar em **Variáveis de Ambiente**, em seguida selecionar a variável **Path** de Variáveis de sistema e clicar em **Editar** e colar o caminho onde foi descompactado o arrquivo .zip baixado, o endereco deve conter até a pasta bin: C:\Users\Bonifacio\OneDrive\Documentos\devtools\apache-maven-3.9.4\bin
+ No botão pesquisar da barra de tarefas do Windows, digitar variáveis de ambiente e clicar em **Editar as variáveis de ambiente do sistema**. Na box **Propriedade do sistema**, opção **Avançado**, clicar em **Variáveis de Ambiente**, em seguida selecionar a variável **Path** de Variáveis de sistema e clicar em **Editar** e colar o caminho onde foi descompactado o arrquivo .zip baixado, o endereco deve conter até a pasta bin: C:\Program Files\apache-maven-3.9.4\bin
  <p align="center"><img src="./images/variavel-ambiente-1.png" width=30%> <img src="./images/variavel-ambiente-2.png" width=30%> <img src="./images/variavel-ambiente-3.png" width="30%"></p>
 
 Feito esses passos, abrir novamente o prompt de comando e digitar o comando:
@@ -33,7 +33,7 @@ mvn -version
 
 O retorno deve ser algo como:
 Apache Maven 3.9.4 (dfbb324ad4a7c8fb0bf182e6d91b0ae20e3d2dd9)
-Maven home: C:\Users\Bonifacio\OneDrive\Documentos\devtools\apache-maven-3.9.4
+Maven home: C:\Program Files\apache-maven-3.9.4
 Java version: 17.0.8, vendor: Eclipse Adoptium, runtime: C:\Program Files\Eclipse Adoptium\jdk-17.0.8.7-hotspot
 Default locale: pt_BR, platform encoding: Cp1252
 OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
