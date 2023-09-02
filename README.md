@@ -21,7 +21,7 @@ OpenJDK Runtime Environment Temurin-17.0.8+7 (build 17.0.8+7)
 OpenJDK 64-Bit Server VM Temurin-17.0.8+7 (build 17.0.8+7, mixed mode, sharing)
 ~~~
 Acessar o Maven no site: https://maven.apache.org/download.cgi em download clicar no link de Binary zip archive (apache-maven-3.9.4-bin.zip).
-<p align="center"><img src="./images/Maven.png"></p>
+<p align="center"><img src="./images/maven.png"></p>
 
  Após o download descompactar, o arquivo .zip em um diretório local, o maven é um arquivo compactado. Após descompactá-lo fazer a configuração da **variável de ambiente**:
  No botão pesquisar da barra de tarefas do Windows, digitar variáveis de ambiente e clicar em **Editar as variáveis de ambiente do sistema**. Na box **Propriedade do sistema**, opção **Avançado**, clicar em **Variáveis de Ambiente**, em seguida selecionar a variável **Path** de Variáveis de sistema e clicar em **Editar** e colar o caminho onde foi descompactado o arrquivo .zip baixado, o endereco deve conter até a pasta bin: C:\Users\Bonifacio\OneDrive\Documentos\devtools\apache-maven-3.9.4\bin
@@ -38,3 +38,11 @@ Java version: 17.0.8, vendor: Eclipse Adoptium, runtime: C:\Program Files\Eclips
 Default locale: pt_BR, platform encoding: Cp1252
 OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
 ~~~
+
+## Entendendo o arquivo pom.xml
++ POM – **Project Object Model**
++ Unidade fundamental de trabalho
++ Formato XML
++ Detalha o projeto
++ Detalha como construir o projeto
++ Maven sempre procura pelo pom.xml para realizar sua execução
